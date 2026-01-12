@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Tenor Sans';
+  src: url('/src/assets/Tenor_Sans/TenorSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Tenor Sans', sans-serif;
+   overflow-x: hidden;
+}
