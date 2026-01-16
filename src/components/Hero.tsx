@@ -101,7 +101,7 @@ const Hero = () => {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 0.15, scale: 1 }}
                 transition={{ duration: 1.5, ease: "easeOut" }}
-                className="absolute right-[-5%] top-[10%] w-[500px] h-[500px] border-[60px] border-yellow-400 rounded-full pointer-events-none"
+                className="absolute right-[-5%] top-[10%] w-125 h-125 border-60 border-yellow-400 rounded-full pointer-events-none"
             />
             <motion.div
                 style={{ y: useTransform(scrollYProgress, [0, 1], ["0%", "-30%"]) }}
